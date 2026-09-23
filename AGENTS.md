@@ -100,3 +100,58 @@
 - **Use unambiguous names** for all variables, functions, classes, files, and folders. Avoid abbreviations, single letters, or vague terms like `data`, `info`, `temp`, `obj`.
   - Good: `invoice_line_items`, `fetch_user_by_id()`, `UserAuthService`, `invoice_line_items.py`
   - Bad: `items`, `get_data()`, `Service`, `utils.py`
+
+- **One word, one meaning.** Use the same term for the same concept everywhere in the codebase, and never use the same word for two different concepts (per Uncle Bob's Clean Code).
+  - Good: Use `delete_` consistently for all destructive operations: `delete_user()`, `delete_account()`.
+  - Bad: Use `delete_user()` in one place and `remove_account()` in another when both permanently destroy a record.
+
+- **Follow existing patterns in the codebase.** Reuse existing abstractions instead of creating new ones, and match the style and conventions already present.
+  - Good: The codebase has a `handle_error()` function, so you call that.
+  - Bad: The codebase has a `handle_error()` function, but you write a new `log_and_raise()` function that does the same thing.
+
+- **Use whitespace to separate logical blocks** within a function or module.
+  - Good:
+    ```python
+    user = get_user(user_id)
+    account = get_account(user.account_id)
+
+    if not account.is_active:
+        return
+
+    send_welcome_email(user, account)
+    log_login(user)
+    ```
+  - Bad:
+    ```python
+    user = get_user(user_id)
+    account = get_account(user.account_id)
+    if not account.is_active:
+        return
+    send_welcome_email(user, account)
+    log_login(user)
+    ```
+
+- **Group code that is doing logically similar things.** Keep related operations together and unrelated operations separate.
+  - Good:
+    ```python
+    # Fetch data
+    user = get_user(user_id)
+    account = get_account(user.account_id)
+    permissions = get_permissions(user)
+
+    # Process
+    if not account.is_active:
+        return
+    apply_permissions(user, permissions)
+    ```
+  - Bad:
+    ```python
+    user = get_user(user_id)
+    if not user:
+        return
+    permissions = get_permissions(user)
+    account = get_account(user.account_id)
+    if not account.is_active:
+        return
+    apply_permissions(user, permissions)
+    ```
