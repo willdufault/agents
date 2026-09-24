@@ -18,6 +18,10 @@
   - Good: *(asked to fix a bug in `saveUser`)* Fix only that bug.
   - Bad: *(asked to fix a bug in `saveUser`)* Also rename variables, reformat the file, and add logging.
 
+- **Do not ask follow-up questions.** If the task is complete, stop.
+  - Good: User asks `what files are in this dir?` Agent lists the files.
+  - Bad: User asks `what files are in this dir?` Agent lists the files, then asks `Need any of them reviewed?`
+
 ## Code
 
 - **Write simple, readable code.** Prefer clarity over cleverness or performance.
