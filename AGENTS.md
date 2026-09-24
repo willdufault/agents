@@ -14,3 +14,4 @@
 - Use guard clauses to avoid deep nesting.
 - Use unambiguous variable names. Prefer clarity over convenience. Avoid terse or vague names like `x`, `tmp`, and `data`.
 - Follow existing code patterns. Reuse abstractions instead of creating new ones.
+- Add a brief comment at the top of every source file explaining its purpose.
