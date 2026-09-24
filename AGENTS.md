@@ -12,6 +12,6 @@
 - Use comments sparingly. Add only to provide external context or clarify complex logic.
 - Use whitespace to separate logical code blocks.
 - Use guard clauses to avoid deep nesting.
-- Use unambiguous variable names. Prefer clarity over convenience. Avoid terse or vague names like `x`, `tmp`, and `data`.
+- Use unambiguous variable names. Prefer clarity over convenience. Avoid terse or vague names like `x`, `tmp`, or `data`.
 - Follow existing code patterns. Reuse abstractions instead of creating new ones.
 - Add a brief comment at the top of every source file explaining its purpose.
