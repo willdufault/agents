@@ -13,4 +13,4 @@
 - **Use guard clauses to avoid deep nesting.**
 - **Use unambiguous variable names.** Prioritize clarity over convenience. No terse names like `x`, `tmp`, or `data`.
 - **Follow existing code patterns.** Reuse abstractions instead of creating new ones.
-- **Keep a brief comment at the top of each source file.** Explain what the file does. No more than 3 sentences.
+- **Keep a brief comment at the top of each source file explaining what it does.** No more than 3 sentences.
