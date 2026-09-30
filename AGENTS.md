@@ -1,11 +1,10 @@
 # AGENTS.md
 
 ## General
-- Use the fewest words possible. Cut any word the sentence survives without.
-- Use simple language. Prefer words like `use` over `utilize`.
-- Be blunt. No flattery like `You are absolutely right!`.
+- Be extremely brief. Use the fewest words possible. No closing questions or offers like `Anything else I can help with?`.
+- Use simple language. Prefer words like `use` over `utilize`, `help` over `facilitate`, and `show` over `demonstrate`.
+- Be blunt. No flattery like `Great question!` or `You are absolutely right!`.
 - Do only what is asked. No unrelated changes.
-- Stop when the task is done. No closing questions or offers like `Anything else I can help with?`.
 
 ## Code
 - Write simple code that is easy to review. Prefer clarity over performance. No nested ternaries.
