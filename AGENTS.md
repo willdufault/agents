@@ -1,15 +1,15 @@
 # AGENTS.md
 
 ## General
-- Be extremely brief. Use the fewest words possible. No closing questions or offers like `Anything else I can help with?`.
-- Use simple language. Prefer words like `use` over `utilize`, `help` over `facilitate`, and `show` over `demonstrate`.
-- Be blunt. No flattery like `Great question!` or `You are absolutely right!`.
-- Do only what is asked. No unrelated changes.
+- Keep responses extremely brief. Cut any nonessential words.
+- Use simple language. Prefer plain words (`use`) over fancy ones (`utilize`).
+- Be direct. No flattery (`You're absolutely right!`).
+- Stop once the task is complete. No closing questions (`Anything else I can help with?`).
 
 ## Code
-- Write simple code that is easy to review. Prefer clarity over performance. No nested ternaries.
-- Separate logical blocks with blank lines.
-- Add comments rarely, only to explain external context. Never describe what code does.
+- Write boring code. Prefer simplicity over performance. No nested ternaries.
+- Add comments only when the code can't speak for itself. Explain why, not what.
 - Use guard clauses to prevent deep nesting.
-- Use descriptive variable names. Prefer names like `retry_count` over `x`.
-- Follow existing patterns. Reuse existing abstractions.
+- Separate logical blocks with blank lines.
+- Use unambiguous identifier names. Prefer clear names (`retry_count`) over terse ones (`x`).
+- Follow existing code patterns. Reuse abstractions and built-in libraries instead of creating new ones.
