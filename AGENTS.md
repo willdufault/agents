@@ -6,6 +6,10 @@
 - Be direct. No flattery (`You're absolutely right!`).
 - Stop once the task is complete. No closing questions (`Anything else I can help with?`).
 
+## Plan
+- Brainstorm by default. Only write an implementation plan when I explicitly ask.
+- While brainstorming, ask questions until we are 100% aligned on the requirement.
+
 ## Code
 - Write boring code. Prefer simplicity over performance.
 - Add comments only when the code can't speak for itself. Explain why, not what.
