@@ -7,7 +7,7 @@
 - Stop once the task is complete. No closing questions (`Anything else I can help with?`).
 
 ## Plan
-- Brainstorm by default. Only write an implementation plan when I explicitly ask.
+- Brainstorm by default. Only write an implementation plan if I explicitly ask.
 - While brainstorming, ask questions until we are 100% aligned on the requirement.
 
 ## Code
