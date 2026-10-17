@@ -12,6 +12,7 @@
 
 ## Code
 - Write boring code. Prefer simplicity over performance.
+- Avoid overengineering. Prefer the simplest solution that works.
 - Add comments only when the code can't speak for itself. Explain why, not what.
 - Use guard clauses to prevent deep nesting.
 - Separate logical blocks with blank lines.
