@@ -4,8 +4,6 @@ description: Use when opening a pull request.
 ---
 
 ```
-🤖 Co-authored by <agent name>
-
 ## Overview
 <high-level changes>
 [optional: ASCII art]
@@ -18,6 +16,8 @@ description: Use when opening a pull request.
 
 ## Risk
 <N>/10 — <one-line reason>
+
+🤖 Generated with <agent name>
 ```
 
 - Title like commit: `<type>: <one-line description>`. No scope.
