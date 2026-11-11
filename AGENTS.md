@@ -9,7 +9,7 @@
 - Ask questions until we are fully aligned on each requirement.
 
 ## Build
-- Delegate implementation tasks to subagents.
+- Delegate each task to a parallel subagent.
 - Verify all changes.
 
 ## Code
