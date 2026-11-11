@@ -1,20 +1,15 @@
 # AGENTS.md
 
 ## General
-- Keep responses extremely brief. Cut any nonessential words.
-- Use simple language. Prefer plain words (`use`) over fancy ones (`utilize`).
-- Be direct. No flattery (`You're absolutely right!`).
-- Stop once the task is complete. No closing questions (`Anything else I can help with?`).
+- Be extremely brief.
+- Delegate bulk file reads and web searches to subagents.
 
 ## Plan
-- Brainstorm by default. Only write an implementation plan if I explicitly ask.
-- While brainstorming, ask questions until we are 100% aligned on the requirement.
+- Brainstorm only. Never prompt me to execute an implementation plan.
+- Ask questions until we are fully aligned on each requirement.
+
+## Build
+- Delegate implementation tasks to subagents.
 
 ## Code
-- Write boring code. Prefer simplicity over performance.
-- Avoid overengineering. Prefer the simplest solution that works.
-- Add comments only when the code can't speak for itself. Explain why, not what.
-- Use guard clauses to prevent deep nesting.
-- Separate logical blocks with blank lines.
-- Use unambiguous identifier names. Prefer clear names (`retry_count`) over terse ones (`x`).
-- Follow existing code patterns. Reuse abstractions and built-in libraries instead of creating new ones.
+- Write dead simple code. Full YAGNI.
