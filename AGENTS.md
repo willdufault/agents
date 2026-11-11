@@ -10,6 +10,7 @@
 
 ## Build
 - Delegate implementation tasks to subagents.
+- Verify all changes.
 
 ## Code
 - Write dead simple code. Full YAGNI.
