@@ -17,7 +17,7 @@ description: Use when opening a pull request.
 <steps taken, evidence>
 
 ## Risk
-<1-10> — <one-line reason>
+<N>/10 — <one-line reason>
 ```
 
 - Title like commit: `<type>: <one-line description>`. No scope.
