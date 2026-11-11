@@ -8,7 +8,7 @@ description: Use when committing changes to git.
 
 <optional context>
 
-Co-authored-by: <agent name> <noreply@anthropic.com>
+Co-authored-by: <agent name> <agent email>
 ```
 
 - Type: build, chore, ci, docs, feat, fix, perf, refactor, revert, style, test. No scope.
