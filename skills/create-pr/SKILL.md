@@ -25,5 +25,6 @@ description: Use when opening a pull request.
 - Destination: not main by default. Guess closest remote branch (fewest commits from merge-base to HEAD); confirm with user first.
 - Then push and run `gh pr create`.
 - Risk: cost of a mistake. 1 = confident, low risk; 10 = unsure, high risk.
+- Scope: `git fetch`, then only changes in `origin/<base>..HEAD`.
 - Overview: every change (read all commits), high level; no implementation details.
 - Footer: "🤖 Generated with" line only.
