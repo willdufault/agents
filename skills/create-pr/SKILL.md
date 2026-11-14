@@ -12,7 +12,10 @@ description: Use when opening a pull request.
 - `<path>`: <why>
 
 ## Validation
-<steps taken, evidence>
+<steps taken>
+
+## Evidence
+[optional: screenshots]
 
 ## Risk
 <N>/10 — <one-line reason>
@@ -27,4 +30,5 @@ description: Use when opening a pull request.
 - Risk: cost of a mistake. 1 = confident, low risk; 10 = unsure, high risk.
 - Scope: `git fetch`, then only changes in `origin/<base>..HEAD`.
 - Overview: every change (read all commits), high level; no implementation details.
+- Evidence: after opening, commit screenshots to `pr-evidence` branch under `pr-<N>/`, delete `pr-<N-10>/` and older, and embed via `raw.githubusercontent.com` URLs.
 - Footer: "🤖 Generated with" line only.
