@@ -5,7 +5,7 @@ description: Use when opening a pull request.
 
 ```
 ## Overview
-- <area>: <change → new behavior>
+- <area>: <what changed>
 [optional: ASCII art]
 
 ## Files touched
