@@ -15,3 +15,4 @@ Co-authored-by: <agent name> <agent email>
 - Split large changes; one thing per commit.
 - Tests pass at every commit.
 - Commit only; never push.
+- Footer: "Co-authored-by" line only.
