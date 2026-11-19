@@ -14,3 +14,4 @@
 
 ## Code
 - Write dead simple code. Full YAGNI.
+- No comments.
