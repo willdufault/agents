@@ -11,8 +11,10 @@ description: Use when committing changes to git.
 Co-authored-by: <agent name> <agent email>
 ```
 
-- Type: build, chore, ci, docs, feat, fix, perf, refactor, revert, style, test. No scope.
-- Split large changes; one thing per commit.
+- Types: build, chore, ci, docs, feat, fix, perf, refactor, revert, style, test. No scopes.
+- Breaking change: add `!` after the type (`feat!:`) and explain the break in the body.
+- Wrap body lines at 72 columns.
+- Split large changes into one thing per commit.
 - Tests pass at every commit.
-- Commit only; never push.
-- Footer: "Co-authored-by" line only.
+- Commit only. Never push.
+- Footer: only the `Co-authored-by` line.
