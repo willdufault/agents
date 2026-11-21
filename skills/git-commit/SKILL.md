@@ -1,6 +1,6 @@
 ---
 name: git-commit
-description: Use when committing changes to git.
+description: Use when committing changes to git or drafting a commit message.
 ---
 
 ```

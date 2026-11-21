@@ -1,6 +1,6 @@
 ---
 name: create-pr
-description: Use when creating a pull request.
+description: Use when creating or drafting a pull request.
 ---
 
 ## Steps
