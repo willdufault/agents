@@ -46,7 +46,7 @@ description: Use when creating or drafting a pull request.
 - Confidence: likelihood the changes have no bugs. 1 = likely buggy; 10 = certain bug-free.
 - Risk: cost of a mistake. 1 = negligible; 10 = severe (outage or data loss).
 - Rollback: always include; numbered steps.
-- Footer: "🤖 Generated with" line only.
+- Footer: "🤖 Generated with" line only. No session link.
 
 ## GitHub
 
