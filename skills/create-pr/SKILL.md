@@ -10,7 +10,7 @@ description: Use when creating or drafting a pull request.
 3. Destination: not main by default. Guess closest remote branch (fewest commits from merge-base to HEAD); confirm with user first.
 4. Scope: `git fetch`, then only changes in `origin/<dest>..HEAD`.
 5. Title like commit: `<type>: <one-line description>`, no scope.
-6. Evidence (if any): commit screenshots to `pr-evidence` under `pr-<short HEAD hash>/`; keep only the 10 most recently committed folders. Link with the host URL below.
+6. Evidence (if any): commit screenshots and GIFs to `pr-evidence` under `pr-<short HEAD hash>/`; keep only the 10 most recently committed folders. Link with the host URL below.
 7. Push source, then run the host section below.
 8. Send the PR link to the user.
 
@@ -28,7 +28,7 @@ description: Use when creating or drafting a pull request.
 <steps taken>
 
 ## Evidence
-[optional: screenshots]
+[optional: screenshots, GIFs]
 
 ## Confidence
 <N>/10 — <one-line reason>
