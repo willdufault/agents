@@ -13,5 +13,5 @@
 - Verify all changes.
 
 ## Code
-- Write dead simple code. Full YAGNI.
+- Write dead simple code. KISS, DRY, YAGNI.
 - No comments.
