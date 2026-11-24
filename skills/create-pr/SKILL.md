@@ -8,7 +8,7 @@ description: Use when creating or drafting a pull request.
 1. `git remote get-url origin` → GitHub, Bitbucket, or CodeCommit.
 2. Source: current branch.
 3. Destination: not main by default. Guess closest remote branch (fewest commits from merge-base to HEAD); confirm with user first.
-4. Scope: `git fetch`, then only changes in `origin/<dest>..HEAD`.
+4. Scope: `git fetch`, then only the net diff `git diff origin/<dest>...HEAD`.
 5. Title like commit: `<type>: <one-line description>`, no scope.
 6. Evidence (if any): commit screenshots and GIFs to `pr-evidence` under `pr-<short HEAD hash>/`; keep only the 10 most recently committed folders. Link with the host URL below.
 7. Push source, then run the host section below.
@@ -42,7 +42,7 @@ description: Use when creating or drafting a pull request.
 🤖 Generated with <agent name>
 ```
 
-- Overview: every change (read all commits), high level; no implementation details.
+- Overview: every change in the net diff, high level; no implementation details.
 - Confidence: likelihood the changes have no bugs. 1 = likely buggy; 10 = certain bug-free.
 - Risk: cost of a mistake. 1 = negligible; 10 = severe (outage or data loss).
 - Rollback: always include; numbered steps.
