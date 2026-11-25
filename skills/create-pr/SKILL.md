@@ -19,10 +19,6 @@ description: Use when creating or drafting a pull request.
 ```
 ## Overview
 - <area>: <what changed>
-[optional: ASCII diagram]
-
-## Files touched
-- `<path>`: <why>
 
 ## Validation
 <steps taken>
@@ -36,16 +32,12 @@ description: Use when creating or drafting a pull request.
 ## Risk
 <N>/10 — <one-line reason>
 
-## Rollback
-1. <step>
-
 🤖 Generated with <agent name>
 ```
 
 - Overview: every change in the net diff, high level; no implementation details.
 - Confidence: likelihood the changes have no bugs. 1 = likely buggy; 10 = certain bug-free.
 - Risk: cost of a mistake. 1 = negligible; 10 = severe (outage or data loss).
-- Rollback: always include; numbered steps.
 - Footer: "🤖 Generated with" line only. No session link.
 
 ## GitHub
