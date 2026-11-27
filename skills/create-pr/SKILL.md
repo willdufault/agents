@@ -40,6 +40,7 @@ description: Use when creating or drafting a pull request.
 ```
 
 - Overview: one brief bullet per area in the net diff; no implementation details.
+- Validation: one brief bullet per area; checks run, test counts, manual checks, and gaps.
 - Confidence: likelihood the changes have no bugs. 1 = likely buggy; 5 = certain bug-free.
 - Risk: cost of a mistake. 1 = negligible; 5 = severe (outage or data loss).
 - Rollback: numbered steps; only if Risk > 3.
