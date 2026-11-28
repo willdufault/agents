@@ -3,7 +3,7 @@ name: code-review2
 description: Use when reviewing code for KISS, DRY, YAGNI issues.
 ---
 
-For each section, start a read-only subagent on the target. It confirms findings with grep and returns a table: file:line, issue, fix. Fixes must not change behavior.
+Run one subagent per section. It verifies each finding before reporting and returns a table: file:line, issue, fix. Fixes must not change behavior.
 
 ## KISS
 - Fewer lines; each is a liability
