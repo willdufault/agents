@@ -3,7 +3,7 @@ name: code-review2
 description: Use when reviewing code for KISS, DRY, YAGNI issues.
 ---
 
-Run one subagent per section. It verifies each finding before reporting and returns a table: ID, file:line, issue, fix. IDs are the section's initial plus a number: K1, D1, Y1. Report one table per section. Fixes must not change behavior or add names (functions, types, constants, files) unless each hides branches, loops, or calculations.
+Run one subagent per section that verifies each finding and returns one table per section: ID (K1, D1, Y1), file:line, issue, fix. Fixes must not change behavior and must make code simpler.
 
 ## KISS
 - Verbose code; shorter is better
@@ -11,7 +11,7 @@ Run one subagent per section. It verifies each finding before reporting and retu
 - Needless abstraction
 
 ## DRY
-- Logic, constants, types, helpers duplicated 3+ times
+- Code duplicated 3+ times
 
 ## YAGNI
 - Dead, unused, speculative code
