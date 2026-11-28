@@ -1,15 +1,14 @@
 # AGENTS.md
 
 ## General
-- Be extremely brief. Only essential words.
+- Be terse. Only essential words.
 - Delegate bulk file reads and web searches to subagents.
 
 ## Plan
-- Brainstorm only. Never ask me to approve a plan.
 - Ask questions until we are fully aligned on each requirement.
 
 ## Build
-- Delegate each task to a parallel subagent.
+- Delegate each task to a subagent.
 - Verify all changes.
 
 ## Code
