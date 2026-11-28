@@ -1,7 +1,7 @@
 # AGENTS.md
 
 ## General
-- Be extremely brief. No unnecessary words.
+- Be extremely brief. Only essential words.
 - Delegate bulk file reads and web searches to subagents.
 
 ## Plan
