@@ -14,6 +14,6 @@ Run one subagent per section. It verifies each finding before reporting and retu
 - Duplicated logic, constants, types, helpers
 
 ## YAGNI
-- Dead, unused, speculative code
-- Impossible cases; cite why
-- Exempt: type/lint narrowing, input validation, user-facing behavior
+- Dead or unused code
+- Speculative code: options, params, branches, abstractions nothing uses yet
+- Exempt: defensive checks, type/lint narrowing, input validation, user-facing behavior
