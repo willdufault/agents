@@ -8,7 +8,7 @@
 - Ask questions until we are fully aligned on each requirement.
 
 ## Build
-- Delegate each task to a subagent.
+- Delegate implemtation tasks to subagents.
 - Verify all changes.
 
 ## Code
