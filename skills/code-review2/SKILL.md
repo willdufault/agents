@@ -11,9 +11,8 @@ Run one subagent per section. It verifies each finding before reporting and retu
 - Needless abstraction
 
 ## DRY
-- Duplicated logic, constants, types, helpers
+- Logic, constants, types, helpers duplicated 3+ times
 
 ## YAGNI
-- Dead or unused code
-- Speculative code: options, params, branches, abstractions nothing uses yet
+- Dead, unused, speculative code
 - Exempt: defensive checks, type/lint narrowing, input validation, user-facing behavior
