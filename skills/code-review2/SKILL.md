@@ -11,7 +11,7 @@ Run one subagent per section that verifies each finding and returns one table pe
 - Needless abstraction
 
 ## DRY
-- Code duplicated 3+ times
+- Logic duplicated 3+ times
 
 ## YAGNI
 - Dead, unused, speculative code
